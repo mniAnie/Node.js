@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <Link href="/about">Aboutページへの移動</Link>
+      <Link href="/about">Aboutページへ移動</Link>
       <Counter />
       <main className={styles.main}>
         <Image
